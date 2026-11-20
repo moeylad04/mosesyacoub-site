@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Moses Yacoub – Actor, Presenter, Voice Artist</title>
+<meta name="description" content="Moses Yacoub is a Sydney-based actor, presenter, voice artist, musician and singer. Credits, training, skills, showreel and agent contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --surface:#f7eff3; --ink:#2b1a23; --muted:#6d5560; --brand:#46102d; --brand-ink:#ffffff; --line:#e6d6de;
+  --serif:"DM Serif Display",Georgia,"Times New Roman",serif; --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#17090f; --surface:#241019; --ink:#f3e8ee; --muted:#bfa6b3; --brand:#d98fb3; --brand-ink:#17090f; --line:#3d2230; color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#17090f; --surface:#241019; --ink:#f3e8ee; --muted:#bfa6b3; --brand:#d98fb3; --brand-ink:#17090f; --line:#3d2230; color-scheme:dark}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 4.5rem)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 var(--sans)}
+a{color:var(--brand)}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+.bar nav{max-width:64rem;margin:0 auto;padding:.75rem 1.25rem;display:flex;gap:1.25rem;align-items:center;overflow-x:auto;white-space:nowrap}
+.bar .mark{font:400 1.25rem var(--serif);color:var(--brand);text-decoration:none;margin-right:auto}
+.bar a.l{color:var(--muted);text-decoration:none;font-size:.9rem;font-weight:500}
+.bar a.l:hover{color:var(--brand)}
+main{max-width:64rem;margin:0 auto;padding:0 1.25rem 4rem}
+.hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:2.5rem;padding:3rem 0 2.5rem;align-items:start}
+.portrait{aspect-ratio:4/5;background:var(--brand);color:var(--brand-ink);border-radius:.5rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1.5rem}
+.portrait b{font:400 4.5rem/1 var(--serif)}
+.portrait span{font-size:.9rem;opacity:.85;margin-top:.75rem}
+h1{font:400 clamp(2.6rem,7vw,4.5rem)/1.02 var(--serif);margin:0 0 .5rem;color:var(--brand)}
+.roles{font-size:1.15rem;color:var(--muted);margin:0 0 1.75rem}
+dl{margin:0}
+.vitals{display:grid;grid-template-columns:repeat(auto-fill,minmax(9.5rem,1fr));gap:1rem 1.5rem;margin-bottom:1.75rem}
+dt{font-size:.85rem;color:var(--muted)}
+dd{margin:0;font-weight:500}
+.agent{background:var(--surface);border-left:4px solid var(--brand);padding:1rem 1.25rem;border-radius:0 .5rem .5rem 0}
+.agent h2{font-size:1rem;margin:0 0 .25rem}
+.agent p{margin:.15rem 0}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+h2.t{font:400 2rem/1.1 var(--serif);margin:0 0 1.25rem;color:var(--brand)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:42rem;font-size:.95rem}
+th{text-align:left;font-weight:700;padding:.5rem .75rem;border-bottom:2px solid var(--brand)}
+td{padding:.55rem .75rem;border-bottom:1px solid var(--line);vertical-align:top}
+tr.yr td{background:var(--surface);font:400 1.15rem var(--serif);color:var(--brand);padding:.5rem .75rem}
+.skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1.25rem 2rem}
+.skills dd{font-weight:400}
+.media{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem}
+.clip{border:1px solid var(--line);border-radius:.5rem;overflow:hidden;background:var(--surface)}
+.clip .frame{aspect-ratio:16/9;background:var(--brand);color:var(--brand-ink);display:flex;align-items:center;justify-content:center;font-size:2.5rem}
+.clip p{margin:0;padding:.75rem 1rem}
+.clip small{color:var(--muted);display:block}
+.photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(10rem,1fr));gap:.75rem}
+.photos div{aspect-ratio:4/5;background:var(--surface);border:1px dashed var(--line);border-radius:.5rem;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.85rem;text-align:center;padding:.5rem}
+.notes{max-width:44rem;font-size:1.05rem}
+footer{max-width:64rem;margin:0 auto;padding:1.5rem 1.25rem 2.5rem;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+@media (max-width:42rem){.hero{grid-template-columns:1fr;gap:1.75rem;padding-top:1.75rem}.portrait{aspect-ratio:1/1;max-width:20rem}}
+</style>
+</head>
+<body>
+<header class="bar"><nav aria-label="Sections">
+  <a class="mark" href="#top">Moses Yacoub</a>
+  <a class="l" href="#credits">Credits</a><a class="l" href="#training">Training</a><a class="l" href="#skills">Skills</a><a class="l" href="#media">Media</a><a class="l" href="#photos">Photos</a><a class="l" href="#about">About</a>
+</nav></header>
+
+<main id="top">
+  <div class="hero">
+    <div class="portrait" role="img" aria-label="Headshot placeholder"><b>MY</b><span>Headshot goes here</span></div>
+    <div>
+      <h1>Moses Yacoub</h1>
+      <p class="roles">Actor, presenter, voice artist, musician and singer</p>
+      <dl class="vitals">
+        <div><dt>Base location</dt><dd>Sydney</dd></div>
+        <div><dt>Available in</dt><dd>Sydney</dd></div>
+        <div><dt>Age range</dt><dd>18–25</dd></div>
+        <div><dt>Pronouns</dt><dd>he/him</dd></div>
+        <div><dt>Height</dt><dd>165 cm</dd></div>
+        <div><dt>Hair</dt><dd>Black</dd></div>
+        <div><dt>Eyes</dt><dd>Brown</dd></div>
+        <div><dt>Ethnicity</dt><dd>African Australian, African, Egyptian</dd></div>
+        <div><dt>Membership</dt><dd>M.E.A.A.</dd></div>
+      </dl>
+      <div class="agent">
+        <h2>Represented by Epic Talent Management</h2>
+        <p><a href="tel:+61394280999">03 9428 0999</a></p>
+        <p><a href="https://www.epictalent.com.au">www.epictalent.com.au</a></p>
+      </div>
+    </div>
+  </div>
+
+  <section id="credits">
+    <h2 class="t">Credits</h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Type</th><th>Role</th><th>Production</th><th>Company</th><th>Director</th></tr></thead>
+      <tbody>
+        <tr class="yr"><td colspan="5">2026</td></tr>
+        <tr><td>Theatre</td><td>Christopher Lowry</td><td>Three Ways to Die</td><td>The Penniless Performer</td><td>Jason Wu</td></tr>
+        <tr><td>Rehearsed reading</td><td>Gerald</td><td>An Evening In Paley Park</td><td>Sutherland Pavilion</td><td>Ethem Muslu, Emily Talbot</td></tr>
+        <tr><td>Podcast</td><td>Co-host</td><td>Joey’s Nostalgia Experience</td><td>YouTube, Apple Podcasts, Spotify</td><td>Joey Wiggle</td></tr>
+        <tr class="yr"><td colspan="5">2025</td></tr>
+        <tr><td>Theatre</td><td>Curio, Antonio, Clown, Fabian</td><td>Twelfth Night</td><td>JMC Academy</td><td>Sean O’Riordan</td></tr>
+        <tr><td>Video</td><td>Extra</td><td>Superwog: Barbers</td><td>Century Entertainment Pty Ltd</td><td>Theo Saidden</td></tr>
+        <tr><td>Podcast</td><td>Co-host</td><td>The Joey Wiggle Experience</td><td>YouTube, Apple Podcasts, Spotify</td><td>Joey Wiggle</td></tr>
+        <tr class="yr"><td colspan="5">2024</td></tr>
+        <tr><td>Theatre</td><td>Badger</td><td>Toad of Toad Hall</td><td>JMC Academy</td><td>Deborah Jones</td></tr>
+        <tr><td>Short film</td><td>Stuart Botterill</td><td>Diamond Robbery</td><td>JMC Academy</td><td>Jade Alsford, Lina Dannawe, Moses Yacoub</td></tr>
+        <tr><td>Theatre</td><td>Lawyer</td><td>Scenes from the Climate Era</td><td>JMC Academy</td><td>Eloise Snape</td></tr>
+        <tr><td>Short film</td><td>Hayden</td><td>Group Interrupted</td><td>JMC Academy</td><td>Athanasia Diakogianni, Amelia Nala Green, Richard Lavroff, Jerialdine Layweh, Anoushka Nesbitt, Kim Ramsay</td></tr>
+        <tr class="yr"><td colspan="5">2019</td></tr>
+        <tr><td>Theatre</td><td>Comedian / Cricket Player</td><td>Jasper Jones</td><td>Marcellin College Randwick</td><td>Hayley Flowers</td></tr>
+        <tr class="yr"><td colspan="5">2017</td></tr>
+        <tr><td>Theatre</td><td>Servant</td><td>The Shrew</td><td>Marcellin College Randwick</td><td>Hayley Flowers</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="training">
+    <h2 class="t">Training</h2>
+    <div class="scroll"><table style="min-width:32rem">
+      <thead><tr><th>Dates</th><th>Institution</th><th>Course</th><th>Field</th></tr></thead>
+      <tbody>
+        <tr><td>2023–2025</td><td>JMC Academy</td><td>Diploma of Creative Arts</td><td>Acting</td></tr>
+        <tr><td>2022</td><td>ScreenWise</td><td>Beginner’s Course</td><td>Screen acting</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="skills">
+    <h2 class="t">Skills</h2>
+    <dl class="skills">
+      <div><dt>Natural accent</dt><dd>Australian</dd></div>
+      <div><dt>Accents</dt><dd>American Standard, Australian, Brooklyn, Arabic</dd></div>
+      <div><dt>Languages</dt><dd>Arabic, English</dd></div>
+      <div><dt>Singing</dt><dd>Contemporary, pop, opera, choir, show, rock</dd></div>
+      <div><dt>Singing range</dt><dd>Baritone, tenor</dd></div>
+      <div><dt>Instruments</dt><dd>Piano / keyboard, guitar, drums</dd></div>
+      <div><dt>Dance</dt><dd>Contemporary, jazz, modern</dd></div>
+      <div><dt>Sport</dt><dd>Cricket, boxing, athletics, running, rugby league, swimming, basketball, cycling, soccer, table tennis, triathlon, yoga</dd></div>
+      <div><dt>Other</dt><dd>Circus, stage combat</dd></div>
+      <div><dt>Driver’s licence</dt><dd>Car</dd></div>
+    </dl>
+  </section>
+
+  <section id="media">
+    <h2 class="t">Showreel and monologue</h2>
+    <div class="media">
+      <div class="clip"><div class="frame" aria-hidden="true">▶</div><p>Showreel<small>3:21 · video link coming soon</small></p></div>
+      <div class="clip"><div class="frame" aria-hidden="true">▶</div><p>Contemporary monologue<small>1:40 · video link coming soon</small></p></div>
+    </div>
+  </section>
+
+  <section id="photos">
+    <h2 class="t">Photos</h2>
+    <div class="photos">
+      <div>New headshots coming soon</div><div>Photo</div><div>Photo</div><div>Photo</div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="t">About</h2>
+    <p class="notes">Moses has been acting for nine years, beginning his stage journey in 2017 as a servant in The Shrew, a modern Sydney adaptation of Shakespeare’s The Taming of the Shrew. Since then, he has continued to develop his craft through formal training, completing a Beginner’s Course in Screen Acting at ScreenWise before graduating with a Diploma of Creative Arts in Acting from JMC Academy. Passionate about both stage and screen, Moses has continued building his experience with professional projects, including a background role in a Superwog production that caught the attention of the duo’s loyal fanbase.</p>
+  </section>
+</main>
+<footer>© 2026 Moses Yacoub. Enquiries via Epic Talent Management, <a href="tel:+61394280999">03 9428 0999</a>.</footer>
+</body>
+</html>
